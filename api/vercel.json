@@ -1,8 +1,6 @@
 {
   "version": 2,
-  "functions": {
-    "api/jobs.js": {
-      "runtime": "edge"
-    }
-  }
+  "rewrites": [
+    { "source": "/api/jobs", "destination": "/api/jobs.js" }
+  ]
 }
